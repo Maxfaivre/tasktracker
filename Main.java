@@ -30,3 +30,17 @@ System.out.println();
         System.out.println("2. " + status2 + " " + task2);
     }
 }
+static java.util.ArrayList<Task> tasks = new java.util.ArrayList<>();
+
+static void countTasks() {
+    int total = tasks.size();
+    int done = 0;
+
+    for (Task t : tasks) {
+        if (t.done) {
+            done++;
+        }
+    }
+
+    System.out.println(done + "/" + total + " tasks complete");
+}
