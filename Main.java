@@ -14,3 +14,14 @@ void showTitle() {
 void showTask(String task) {
     System.out.println("- " + task);
 }
+
+static void addTask(String taskName) {
+    addTask(taskName, "none");
+}
+
+static void addTask(String taskName, String dueDate) {
+    System.out.println("Added task: " + taskName
+        + " (due " + dueDate + ")");
+}
+
+
