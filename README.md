@@ -9,6 +9,7 @@ TaskTracker is a simple Java program that helps users manage and track tasks.
 - Add new tasks
 - View existing tasks
 - Track task status
+- Assign a due date to each task
 
 ## Methods
 
